@@ -9,6 +9,6 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("GET", "https://cors-anywhere.herokuapp.com/http://api.wisey.app/api/v1/core/preview-courses/352be3c6-848b-4c19-9e7d-54fe68fef183");
+xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://api.wisey.app/api/v1/core/preview-courses/352be3c6-848b-4c19-9e7d-54fe68fef183");
 
 xhr.send();
