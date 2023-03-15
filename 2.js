@@ -1,6 +1,6 @@
 const xhr = new XMLHttpRequest();
-const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
-const url = 'https://api.wisey.app/api/v1/core/preview-courses';
+const corsAnywhere = 'http://cors-anywhere.herokuapp.com/';
+const url = 'http://api.wisey.app/api/v1/core/preview-courses';
 const token = 'your-access-token';
 
 xhr.open('GET', corsAnywhere + url);
